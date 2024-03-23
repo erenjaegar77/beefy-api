@@ -1822,7 +1822,7 @@ const _tokens = {
     website: 'https://www.swellnetwork.io/liquid-restaking',
     documentation: 'https://docs.swellnetwork.io/swell/rsweth-liquid-restaking',
     description:
-      'rswETH is a Liquid Restaked Token (LRT) issued by Swell network designed to offer liquidity to illiquid assets deposited into restaking platforms, such as EigenLayer.',
+      'rswETH is an ERC-20 Liquid Restaking Token that provides liquidity for users who are wanting to "restake" their ETH into restaking protocols such as EigenLayer without having their restaked ETH locked.',
     bridge: 'native',
     risks: ['NO_TIMELOCK'],
   },
