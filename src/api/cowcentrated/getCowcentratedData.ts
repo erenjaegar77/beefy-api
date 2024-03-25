@@ -6,9 +6,9 @@ const CACHE_KEY = 'COWCENTRATED_DATA';
 const INIT_DELAY = 5000;
 
 const addressToVaultIdMapping = {
-  ['0x8f6d2f9301305840deb366946a5e9e01279483b3'.toLowerCase()]: 'uniswap-cow-op-susd-usdc',
-  ['0x9ba9232ae8b159558082642bdf77378cfc0306fb'.toLowerCase()]: 'uniswap-cow-op-op-eth',
-  ['0xf01e9f9535e834092f1d3b1712a5dc1b1b92cd07'.toLowerCase()]: 'uniswap-cow-op-moobifi-eth',
+  ['0x9A864CAa21515D85C64323c5670C6a5b776D0e39'.toLowerCase()]: 'uniswap-cow-op-susd-usdc-t2',
+  ['0xB8FB18a0F06a2Fd4c65B4168F561618Aab0768E7'.toLowerCase()]: 'uniswap-cow-op-op-eth-t2',
+  ['0x44EF0a7023e7B19619F29C09db690fA3DA655453'.toLowerCase()]: 'uniswap-cow-op-moobifi-eth-t2',
 };
 
 const updateCowcentratedData = async () => {
