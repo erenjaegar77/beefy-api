@@ -99,7 +99,7 @@
     "tokens": [
       {
         "oracle": "tokens",
-        "oracleId": "HAY",
+        "oracleId": "lisUSD",
         "decimals": "1e18"
       },
       {
