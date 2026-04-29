@@ -3032,4 +3032,18 @@ export const tokens = {
     bridge: 'native',
     tags: ['NO_TIMELOCK', 'STABLECOIN', 'SYNTHETIC'],
   },
+  MORPHO: {
+    name: 'Morpho Token',
+    symbol: 'MORPHO',
+    oracleId: 'MORPHO',
+    address: '0x58D97B57BB95320F9a05dC918Aef65434969c2B2',
+    chainId: 1,
+    decimals: 18,
+    website: 'https://morpho.org/',
+    description:
+      'Morpho is a decentralized lending protocol with different entities and individuals contributing to its development and adoption. As a result, the documentation refers to different areas of “Morpho” which are worth distinguishing.',
+    documentation: 'https://docs.morpho.org/',
+    bridge: 'native',
+    tags: ['BLUECHIP', 'NO_TIMELOCK'],
+  },
 } as const satisfies Record<string, Token>;
